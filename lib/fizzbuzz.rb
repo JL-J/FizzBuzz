@@ -1,5 +1,5 @@
 
 
-def fizzbuzz
+def fizzbuzz(name)
 
 end
