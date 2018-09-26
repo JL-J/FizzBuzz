@@ -10,4 +10,7 @@ describe 'fizzbuzz' do
     it "returns 'fizzbuzz' when passed 15" do
         expect(fizzbuzz_fifteen(15)).to eq "fizzbuzz"
     end
+    it "return the number if the its not divisible by '3' or '5'" do
+      expect(fizzbuzz_return(1)).to eq (1)
+    end
 end
